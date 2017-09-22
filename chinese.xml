@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ew-language date="2013/10/21" version="10.0.0" id="en" name="Chinese" desc="Chinese" author="yb980">
+<locale>
+	<phrase id="use_system_locale" value="1"/>
+	<phrase id="decimal_point" value="."/>
+	<phrase id="thousands_sep" value=","/>
+	<phrase id="currency_symbol" value="$"/>
+</locale>
+<global>
+	<phrase id="ActionDeleted" value="已删除"/>
+	<phrase id="ActionInserted" value="已插入"/>
+	<phrase id="ActionInsertedGridAdd" value="多列成功插入"/>
+	<phrase id="ActionUpdated" value="已更新"/>
+	<phrase id="ActionUpdatedGridEdit" value="多列编辑成功"/>
+	<phrase id="ActionUpdatedMultiUpdate" value="多列更新成功"/>
+	<phrase id="ActivateAccount" value="帐户成功激活"/>
+	<phrase id="ActivateFailed" value="帐户激活失败"/>
+	<phrase id="Add" value="添加到"/>
+	<phrase id="AddBlankRow" value="添加空行"/>
+	<phrase id="AddBtn" value="添加"/>
+	<phrase id="AddLink" value="添加"/>
+	<phrase id="AddSuccess" value="添加成功"/>
+	<phrase id="AdvancedSearch" value="高级查询"/>
+	<phrase id="AllRecords" value="所有记录"/>
+	<phrase id="AllWord" value="所有关键字"/>
+	<phrase id="AlwaysAsk" value="总是询问账号和密码"/>
+	<phrase id="AnyWord" value="任意关键字"/>
+	<phrase id="AuditTrailAutoLogin" value="自动登录"/> 
+	<phrase id="AuditTrailFailedAttempt" value="操作失败: %n"/> 
+	<phrase id="AuditTrailUserLoggedIn" value="保持登录"/> 
+	<phrase id="AuditTrailPasswordExpired" value="密码过期"/> 
+	<phrase id="AuditTrailLogin" value="登录系统"/> 
+	<phrase id="AuditTrailLogout" value="注销登录"/> 
+	<phrase id="AutoLogin" value="保持登录直到我注销"/>
+	<phrase id="Average" value="平均"/>
+	<phrase id="BackToList" value="返回列表"/>
+	<phrase id="BackToLogin" value="返回登录页面"/>
+	<phrase id="BackToMasterRecordPage" value="返回主表列表页面"/>
+	<phrase id="BatchDeleteBegin" value="*** 批量删除开始 ***"/>
+	<phrase id="BatchDeleteRollback" value="*** 批量删除回滚 ***"/>
+	<phrase id="BatchDeleteSuccess" value="*** 批量删除成功 ***"/>
+	<phrase id="BatchInsertBegin" value="*** 批量插入开始 ***"/>
+	<phrase id="BatchInsertRollback" value="*** 批量插入回滚 ***"/>
+	<phrase id="BatchInsertSuccess" value="*** 批量插入成功 ***"/>
+	<phrase id="BatchUpdateBegin" value="*** 批量更新开始 ***"/>
+	<phrase id="BatchUpdateRollback" value="*** 批量更新回滚 ***"/>
+	<phrase id="BatchUpdateSuccess" value="*** 批量更新成功 ***"/>
+	<phrase id="CancelBtn" value="取消"/>
+	<phrase id="CancelLink" value="取消"/>
+	<phrase id="ChangePwd" value="更改登录密码"/>
+	<phrase id="ChangePwdPage" value="密码更改页面"/>
+	<phrase id="ChangePwdBtn" value="更改密码"/>
+	<phrase id="Confirm" value="确认提交"/>
+	<phrase id="ConfirmBtn" value="确认提交"/>
+	<phrase id="ConfirmPassword" value="确认更改密码"/>
+	<phrase id="ConflictCancelLink" value="取消"/> 
+	<phrase id="CopyLink" value="复制"/>
+	<phrase id="Count" value="计数"/>
+	<phrase id="CustomView" value="自定义查看"/>
+	<phrase id="Delete" value="删除从"/>
+	<phrase id="DeleteBtn" value="确认删除"/>
+	<phrase id="DeleteCancelled" value="记录已经删除成功"/>
+	<phrase id="DeleteConfirmMsg" value="你确认要删除该记录吗?" client="1"/>
+	<phrase id="DeleteLink" value="删除"/>
+	<phrase id="DeleteMultiConfirmMsg" value="你确认要删除所选记录吗?" client="1"/>
+	<phrase id="DeleteSelectedLink" value="删除所选记录"/>
+	<phrase id="DeleteSuccess" value="删除成功"/>
+	<phrase id="DetailLink" value=""/>
+	<phrase id="DetailCount" value="(%c)"/> 
+	<phrase id="DupIndex" value="索引具有唯一性 '%v' 值重复 '%f'"/>
+	<phrase id="DupKey" value="重复的主键: '%f'"/>
+	<phrase id="Edit" value="编辑"/>
+	<phrase id="EditBtn" value="编辑"/>
+	<phrase id="EditLink" value="编辑"/>
+	<phrase id="EnterNewPassword" value="请输入新密码！" client="1"/>
+	<phrase id="EnterOldPassword" value="请输入旧密码！" client="1"/>
+	<phrase id="EnterPassword" value="请输入密码！" client="1"/>
+	<phrase id="EnterPwd" value="请输入密码！" client="1"/>
+	<phrase id="EnterRequiredField" value="请输入必填字段" client="1"/>
+	<phrase id="EnterSearchCriteria" value="请输入查询规则"/>
+	<phrase id="EnterUserName" value="请输入用户名" client="1"/> 
+	<phrase id="EnterValidateCode" value="请输入验证码" client="1"/> 
+	<phrase id="EnterSenderEmail" value="请输入发件人的电子邮件" client="1"/> 
+	<phrase id="EnterProperSenderEmail" value="超过最高发件人的电子邮件数量或电子邮件地址不正确" client="1"/> 
+	<phrase id="EnterRecipientEmail" value="请输入收件人的电子邮件" client="1"/> 
+	<phrase id="EnterProperRecipientEmail" value="超过最大计数或电子邮件收件人的电子邮件地址不正确" client="1"/> 
+	<phrase id="EnterProperCcEmail" value="超过最高抄送邮件计数或电子邮件地址不正确" client="1"/> 
+	<phrase id="EnterProperBccEmail" value="超过最大密件邮件计数或电子邮件地址不正确" client="1"/> 
+	<phrase id="EnterSubject" value="请输入主题" client="1"/> 
+	<phrase id="EmailFormSender" value="自"/> 
+	<phrase id="EmailFormRecipient" value="到"/> 
+	<phrase id="EmailFormCc" value="抄送"/> 
+	<phrase id="EmailFormBcc" value="密件"/> 
+	<phrase id="EmailFormSubject" value="主题"/> 
+	<phrase id="EmailFormMessage" value="消息"/> 
+	<phrase id="EmailFormContentType" value="寄"/> 
+	<phrase id="EmailFormContentTypeUrl" value="链接"/> 
+	<phrase id="EmailFormContentTypeHtml" value="HTML"/> 
+	<phrase id="EnterUid" value="请输入用户ID" client="1"/>
+	<phrase id="EnterValidEmail" value="请输入有效的电子邮件地址!" client="1"/>
+	<phrase id="ExactPhrase" value="精确关键字"/>
+	<phrase id="ExceedMaxRetry" value="超过最大登录重试计数，帐户被锁定，请 %t 分钟后再试"/> 
+	<phrase id="ExceedMaxEmailExport" value="超过最大的发送邮件计数，请稍后再试"/> 
+	<phrase id="ExportToCsv" value="导出为CSV"/>
+	<phrase id="ExportToEmail" value="导出为Email" client="1"/> 
+	<phrase id="ExportToExcel" value="导出为Excel"/>
+	<phrase id="ExportToHtml" value="导出为HTML"/>
+	<phrase id="ExportToPDF" value="导出为PDF"/>
+	<phrase id="ExportToWord" value="导出为Word"/>
+	<phrase id="ExportToXml" value="导出为XML"/>
+	<phrase id="FailedToSendMail" value="发送邮件失败. "/> 
+	<phrase id="FieldName" value="字段名称"/>
+	<phrase id="FieldRequiredIndicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+	<phrase id="OverwriteBtn" value="覆盖"/> 
+	<phrase id="OverwriteLink" value="覆盖"/> 
+	<phrase id="ForgotPwd" value="忘记密码"/>
+	<phrase id="GoBack" value="返回"/>
+	<phrase id="GridAddLink" value="多列添加"/>
+	<phrase id="GridCancelLink" value="取消"/>
+	<phrase id="GridEditLink" value="多列编辑"/>
+	<phrase id="GridInsertLink" value="插入"/>
+	<phrase id="GridSaveLink" value="保存"/>
+	<phrase id="HideHighlight" value="高亮" client="1"/>
+	<phrase id="IncorrectCreditCard" value="不正确的信用卡号码"/>
+	<phrase id="IncorrectDateYMD" value="日期格式错误,应为：yyyy%smm%sdd"/> 
+	<phrase id="IncorrectDateMDY" value="日期格式错误,应为：mm%sdd%syyyy"/> 
+	<phrase id="IncorrectDateDMY" value="日期格式错误,应为：dd%smm%syyyy"/>
+	<phrase id="IncorrectShortDateYMD" value="日期格式错误,应为：yy%smm%sdd"/>
+	<phrase id="IncorrectShortDateMDY" value="日期格式错误,应为：mm%sdd%syy"/>
+	<phrase id="IncorrectShortDateDMY" value="日期格式错误,应为：dd%smm%syy"/>
+	<phrase id="IncorrectEmail" value="不正确的邮件地址" client="1"/>
+	<phrase id="IncorrectField" value="不正确的字段" client="1"/> 
+	<phrase id="IncorrectFloat" value="不正确的浮点数" client="1"/>
+	<phrase id="IncorrectGUID" value="不正确的GUID" client="1"/>
+	<phrase id="IncorrectInteger" value="不正确的整数" client="1"/>
+	<phrase id="IncorrectPhone" value="不正确的电话号码" client="1"/>
+	<phrase id="IncorrectRegExp" value="正则表达式不匹配" client="1"/> 
+	<phrase id="IncorrectRange" value="数字必须在 %1 和 %2 之间" client="1"/> 
+	<phrase id="IncorrectSSN" value="不正确的社会安全号码" client="1"/>
+	<phrase id="IncorrectTime" value="不正确的时间格式 (hh:mm:ss)" client="1"/>
+	<phrase id="IncorrectZip" value="不正确的邮编" client="1"/>
+	<phrase id="InlineAddLink" value="直接添加"/>
+	<phrase id="InlineCopyLink" value="直接复制"/>
+	<phrase id="InlineEditLink" value="直接编辑"/>
+	<phrase id="InsertCancelled" value="取消插入"/>
+	<phrase id="InsertFailed" value="插入失败" client="1"/>
+	<phrase id="InsertLink" value="插入"/>
+	<phrase id="InsertSuccess" value="成功插入"/>
+	<phrase id="InvalidEmail" value="无效的电子邮件"/>
+	<phrase id="InvalidField" value="无效字段"/>
+	<phrase id="InvalidKeyValue" value="无效键值"/>
+	<phrase id="InvalidRecord" value="无效的记录! 主键为空" client="1"/>
+	<phrase id="InvalidParameter" value="参数错误"/>
+	<phrase id="InvalidPassword" value="密码错误"/>
+	<phrase id="InvalidNewPassword" value="新密码错误"/>
+	<phrase id="InvalidUidPwd" value="不正确的用户名和密码"/>
+	<phrase id="Keep" value="保持"/>
+	<phrase id="Language" value="语言"/> 
+	<phrase id="Loading" value="正在载入..." client="1"/> 
+	<phrase id="Login" value="确定登录系统"/>
+	<phrase id="LoginCancelled" value="取消登录"/>
+	<phrase id="LoginPage" value="登录页面"/>
+	<phrase id="Logout" value="注销登录"/>
+	<phrase id="MasterRecord" value="主表记录: "/>
+	<phrase id="MaxFileSize" value="最大文件大小 (%s bytes) 超过了."/>
+	<phrase id="MessageOK" value="完毕" client="1"/>
+	<phrase id="MismatchPassword" value="不匹配密码" client="1"/>
+	<phrase id="MissingLookupTableName" value="缺少查找表名称"/>
+	<phrase id="MissingDisplayFieldName" value="缺少显示字段名称"/>
+	<phrase id="MissingDisplayFieldValue" value="缺少显示字段值"/>
+	<phrase id="MissingUserLevelID" value="缺少用户权限ID无效"/>
+	<phrase id="MissingUserLevelName" value="缺少用户级别名称"/>
+	<phrase id="MobileMenu" value="Menu"/>
+	<phrase id="New" value="新"/>
+	<phrase id="NewPassword" value="新密码"/>
+	<phrase id="NewValue" value="新数值"/>
+	<phrase id="Next" value="下一个"/>
+	<phrase id="NoAddRecord" value="没有记录被添加" client="1"/>
+	<phrase id="NoFieldSelected" value="没有记录被选择更新" client="1"/>
+	<phrase id="NoPermission" value="您没有权限访问该页面."/>
+	<phrase id="NoAddPermission" value="您没有权限添加记录."/>
+	<phrase id="NoDeletePermission" value="您没有权限删除记录."/>
+	<phrase id="NoEditPermission" value="您没有权限编辑记录."/>
+	<phrase id="NoRecord" value="没有找到记录"/>
+	<phrase id="NoRecordForKey" value="没有记录找到关键值 = "/>
+	<phrase id="NoRecordSelected" value="没有记录被选择" client="1"/>
+	<phrase id="NoTableGenerated" value="没有表生成"/>
+	<phrase id="NoUserLevel" value="没有用户级别设置."/>
+	<phrase id="Of" value="共计"/>
+	<phrase id="Old" value="旧"/>
+	<phrase id="OldPassword" value="旧密码"/>
+	<phrase id="OptionAlreadyExist" value="期权已经存在"/>
+	<phrase id="Page" value="页"/>
+	<phrase id="PagerFirst" value="第一页"/>
+	<phrase id="PagerLast" value="最后一页"/>
+	<phrase id="PagerNext" value="下一页"/>
+	<phrase id="PagerPrevious" value="前一页"/>
+	<phrase id="Password" value="密码"/>
+	<phrase id="PasswordRequest" value="密码申请"/>
+	<phrase id="PasswordChanged" value="密码已更改"/>
+	<phrase id="PasswordExpired" value="密码过期，请更改密."/> 
+	<phrase id="Permission" value="许可"/>
+	<phrase id="PermissionAddCopy" value="添加/复制"/>
+	<phrase id="PermissionDelete" value="删除"/>
+	<phrase id="PermissionEdit" value="编辑"/>
+	<phrase id="PermissionListSearchView" value="列表/查询/查看"/>
+	<phrase id="PermissionList" value="列表"/>
+	<phrase id="PermissionSearch" value="查询"/>
+	<phrase id="PermissionView" value="查看"/>
+	<phrase id="PickDate" value="选择一个日期"/>
+	<phrase id="PleaseSelect" value="请选择"/>
+	<phrase id="PleaseWait" value="请稍等..." client="1"/>
+	<phrase id="PrimaryKeyUnspecified" value="未指定的主键"/> 
+	<phrase id="PrinterFriendly" value="打印机页面预览"/>
+	<phrase id="Prev" value="末一页"/>
+	<phrase id="PwdEmailSent" value="密码已发送到你的邮箱"/>
+	<phrase id="QuickSearch" value="快速查询"/>
+	<phrase id="QuickSearchBtn" value="查询 (*)"/>
+	<phrase id="Record" value="记录"/>
+	<phrase id="RecordChangedByOtherUser" value="数据已被更改由其他用户。点击[刷新]检索更改的数据（您的数据的格式将被覆盖），或者点击[覆盖]."/> 
+	<phrase id="RecordDeleted" value="个记录已删除"/>
+	<phrase id="RecordInserted" value="个记录已插入"/>
+	<phrase id="RecordUpdated" value="个记录已更新"/>
+	<phrase id="RecordsPerPage" value="每页显示记录"/>
+	<phrase id="Register" value="注册用户"/>
+	<phrase id="RegisterBtn" value="注册用户"/>
+	<phrase id="RegisterSuccess" value="成功注册新用户"/>
+	<phrase id="RegisterSuccessActivate" value="注册成功。一封电子邮件已经发送到您的电子邮件地址，请点击电子邮件中的激活帐户的链接。"/>
+	<phrase id="RegisterPage" value="注册页面"/>
+	<phrase id="ReloadBtn" value="重新载入"/> 
+	<phrase id="ReloadLink" value="重新载入"/> 
+	<phrase id="RememberMe" value="记住我"/>
+	<phrase id="Remove" value="删除"/>
+	<phrase id="Replace" value="替换"/>
+	<phrase id="Report" value="报告"/> 	
+	<phrase id="RequestPwdPage" value="要求密码页"/>
+	<phrase id="Reset" value="重置"/>
+	<phrase id="ResetSearch" value="重置搜索条件"/>
+	<phrase id="RptAvg" value="平均"/>
+	<phrase id="RptDtlRec" value="详细记录"/>
+	<phrase id="RptGrandTotal" value="共"/>
+	<phrase id="RptMax" value="最大"/>
+	<phrase id="RptMin" value="最小"/>
+	<phrase id="RptSum" value="合计"/>
+	<phrase id="RptSumHead" value="综述"/>
+	<phrase id="SaveUserName" value="保存我的用户名"/>
+	<phrase id="Search" value="查询"/>
+	<phrase id="SendEmailBtn" value="发送"/> 
+	<phrase id="SendEmailSuccess" value="电子邮件发送成功" client="1"/> 
+	<phrase id="SendPwd" value="发送密码"/>
+	<phrase id="ShowAll" value="显示所有记录"/>
+	<phrase id="ShowHighlight" value="显示高亮" client="1"/>
+	<phrase id="SrchLegend" value="&amp;nbsp;(*)"/>
+	<phrase id="Table" value="表"/>
+	<phrase id="TblTypeTABLE" value="当前列表位置: "/> 
+	<phrase id="TblTypeVIEW" value="当前列表位置: "/> 
+	<phrase id="TblTypeCUSTOMVIEW" value="当前列表位置: "/> 
+	<phrase id="TblTypeREPORT" value="当前报表位置: "/> 
+	<phrase id="To" value="到"/>
+	<phrase id="Total" value="总和"/>
+	<phrase id="UnauthorizedUserID" value="当前用户 (%c) 无权指定用户ID (%u)."/>
+	<phrase id="UnauthorizedParentUserID" value="当前用户 (%c) 无权指定父用户ID (%p)."/>
+	<phrase id="UnauthorizedMasterUserID" value="当前用户 (%c) 无权插入记录。主过滤器: %f"/>
+	<phrase id="UnmatchedValue" value="&lt;img src=&quot;%fwarn.gif&quot; alt=&quot;Value does not exist&quot; title=&quot;Value does not exist&quot; width=&quot;16&quot; height=&quot;15&quot; style=&quot;border: 0;&quot;&gt;"/>
+	<phrase id="Update" value="更新"/>
+	<phrase id="UpdateBtn" value="更新"/>
+	<phrase id="UpdateCancelled" value="取消更新"/>
+	<phrase id="UpdateFailed" value="更新失败"/>
+	<phrase id="UpdateLink" value="更新"/>
+	<phrase id="UpdateSelectedLink" value="更新所选记录"/>
+	<phrase id="UpdateSuccess" value="记录已成功更新"/>
+	<phrase id="Uploading" value="上载中..." client="1"/>
+	<phrase id="UpdateValue" value="更新"/>
+	<phrase id="UserEmail" value="用户邮箱"/>
+	<phrase id="UserExists" value="用户已存在"/>
+	<phrase id="UserLevel" value="用户权限: "/>
+	<phrase id="UserLevelAdministratorName" value="用户对用户-1层级别的名称必须是'管理员'" client="1"/>
+	<phrase id="UserLevelPermission" value="用户级别的权限"/>
+	<phrase id="UserLevelIDInteger" value="用户权限ID必须是整数" client="1"/>
+	<phrase id="UserLevelDefaultName" value="用户对用户级别0级的名称必须是'默认用户'" client="1"/>
+	<phrase id="UserLevelIDIncorrect" value="用户自定义用户级ID必须比0大" client="1"/>
+	<phrase id="UserLevelNameIncorrect" value="用户自定义用户级别名称不能'管理员'或'默认'" client="1"/>
+	<phrase id="UserLoggedIn" value="用户 '%u' 已经登陆!"/> 
+	<phrase id="UserName" value="账号"/>
+	<phrase id="UserProfileCorrupted" value="用户配置文件已损坏。请注销并重新登录"/> 
+	<phrase id="View" value="查看"/>
+	<phrase id="ViewLink" value="查看"/>
+	<phrase id="ViewPageAddLink" value="添加"/>
+	<phrase id="ViewPageCopyLink" value="复制"/>
+	<phrase id="ViewPageDeleteLink" value="删除"/>
+	<phrase id="ViewPageDetailLink" value=""/>
+	<phrase id="ViewPageEditLink" value="修改"/>
+	<phrase id="WrongFileType" value="文件类型是不允许的." client="1"/>
+	<phrase id="TableOrView" value="表/查看"/>
+	<phrase id="=" value=""/>
+	<phrase id="&lt;&gt;" value="&lt;&gt;"/>
+	<phrase id="&lt;" value="&lt;"/>
+	<phrase id="&lt;=" value="&lt;="/>
+	<phrase id="&gt;" value="&gt;"/>
+	<phrase id="&gt;=" value="&gt;="/>
+	<phrase id="LIKE" value="包含"/>
+	<phrase id="NOT LIKE" value="不包含"/>
+	<phrase id="STARTS WITH" value="开头"/>
+	<phrase id="IS NULL" value="为空"/>
+	<phrase id="IS NOT NULL" value="不为空"/>
+	<phrase id="BETWEEN" value="开始"/>
+	<phrase id="AND" value="结束"/>
+	<phrase id="OR" value="或者"/>
+</global>
+</ew-language>
